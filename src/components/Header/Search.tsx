@@ -7,7 +7,6 @@ export function Search() {
 
   const searchInputRef = useRef<HTMLInputElement>(null)
 
-  console.log(searchInputRef.current.value)
 
   return (
     <Flex
